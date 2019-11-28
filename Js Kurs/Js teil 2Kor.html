@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="Js teil 2.css">
+</head>
+<body onload="init()">
+
+    <h1>Einkaufsliste</h1>
+
+    <form action="javascript:submit();">
+        <input id="num" type="number" min="1" placeholder="Anzahl" required>
+        <select id="unit" placeholder="Einheit" required>
+            <option value="st">Stück</option>
+            <option value="l">Liter</option>    
+            <option value="g">Gramm</option>
+            <option value="kg">Kilo</option>
+            </select>
+                <input id="product" placeholder="Produkt" required>
+                <input type="submit" value="Hinzufügen">
+    </form>
+
+    <table id="list">
+    </table>
+
+    <script src="Js teil 2Kor.js"></script>
+</body>
+</html>
+
+
+

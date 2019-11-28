@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+h1{
+    font-family: 'Squada One', cursive;
+}body{
+    background-image:url("../Pictures/87850.jpg");
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+ }div img {
+       width: 120px;
+        position: absolute;
+        top: 8px;
+        right: 16px;
+   }img {
+       width: 5%;
+       }

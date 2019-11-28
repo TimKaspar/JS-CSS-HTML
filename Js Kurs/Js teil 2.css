@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Montserrat:900&display=swap');
+
+body{
+  font-family: 'Indie Flower', cursive;
+  font-size: 200%;
+  font-weight: 900;
+}h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 250%;
+  border-bottom: solid black;
+  border-width: thick;
+}thead{
+     display: none;
+}
+td {
+    text-align: left;
+}table{
+     background-color: #808080;
+  margin-left:0px;
+  width: 536px;
+}form{
+  margin-top: -30px;
+}
+tr {
+    padding-left: 100px;
+}
+tr:nth-child(even) {
+    background-color: #fff1cc;
+}
+tr:nth-child(odd) {
+    background-color: #ffd461;
+}button{
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    display: block;
+ }table button{
+    padding: 5px;
+   }
